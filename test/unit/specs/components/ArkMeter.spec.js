@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils'
 import ArkMeter from '@/components/ArkMeter'
 
-describe('ArkMeter', () => {
+describe('LegMeter', () => {
   describe('when percentage is 0%', () => {
     it('the arc with colour should be hidden', () => {
       const wrapper = mount(ArkMeter, { propsData: { percentage: 0 } })
