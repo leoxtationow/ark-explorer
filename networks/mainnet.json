@@ -1,6 +1,6 @@
 {
-  "title": "ARK Explorer",
-  "server": "https://explorer.ark.io:8443/api",
+  "title": "LEGION CORE Explorer",
+  "server": "https://http://192.168.0.230:4100/api",
   "alias": "Main",
   "activeDelegates": 51,
   "rewardOffset": 75600,
@@ -25,8 +25,8 @@
   "knownWallets": {
     "AFrPtEmzu6wdVpa2CnRDEKGQQMWgq8nE9V": "Binance",
     "AJbmGnDAx9y91MQCDApyaqZhn6fBvYX9iJ": "Cryptopia",
-    "ALgvTAoz5Vi9easHqBK6aEMKatHb4beCXm": "ARK Shield",
-    "AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv": "ARK Team",
+    "ALgvTAoz5Vi9easHqBK6aEMKatHb4beCXm": "LEGION Shield",
+    "AUDud8tvyVZa67p3QY7XPRUTjRGnWQQ9Xv": "LEGION Team",
     "AUexKjGtgsSpVzPLs6jNMM6vJ6znEVTQWK": "Bittrex",
     "AeUyEH2UGpYrwHAupBh7syFhWYSBNFAkap": "OKEx",
     "AN4YrhvXUCLwL4wtts1FuWupbitKkwo91G": "Upbit"
