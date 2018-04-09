@@ -1,10 +1,10 @@
 <template>
   <footer class="max-w-2xl mx-auto px-5 md:px-10 py-8 text-theme-text-tertiary flex flex-wrap justify-between items-center">
     <div>
-      &copy; ARK.io | {{ year }}. {{ $t("All rights reserved") }} <span class="hidden md:inline-block"> | {{ $t("Version") }}: <a :href="versionLink" target="_blank">{{ version }}</a> | {{ $t("Date") }}: {{ date }}</span>
+      &copy; LEGIONCORE.ORG | {{ year }}. {{ $t("All rights reserved") }} <span class="hidden md:inline-block"> | {{ $t("Version") }}: <a :href="versionLink" target="_blank">{{ version }}</a> | {{ $t("Date") }}: {{ date }}</span>
     </div>
     <div>
-      <a href="https://www.facebook.com/arkecosystem" target="_blank">
+      <a href="https://www.facebook.com/legioncore" target="_blank">
         <svg
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@
         </svg>
       </a>
 
-      <a href="https://twitter.com/ArkEcosystem" target="_blank">
+      <a href="https://twitter.com/Legioncore" target="_blank">
         <svg
           viewBox="0 0 24 24"
           class="m-2"
@@ -26,18 +26,9 @@
         </svg>
       </a>
 
-      <a href="https://www.youtube.com/channel/UCpc2k6zOOutGT9y56urDClg" target="_blank">
-        <svg
-        viewBox="0 0 24 24"
-        class="m-2"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="16px" height="16px">
-          <path fill-rule="evenodd"  fill="currentColor" d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
-        </svg>
-      </a>
+    
 
-      <a href="mailto:info@ark.io" target="_blank">
+      <a href="mailto:info@legioncore.org" target="_blank">
         <svg
           viewBox="0 0 14 14"
           class="m-2"
@@ -48,7 +39,7 @@
         </svg>
       </a>
 
-      <a href="https://www.reddit.com/r/arkecosystem" target="_blank">
+      <a href="https://www.reddit.com/r/legioncoresystems" target="_blank">
         <svg
           viewBox="0 0 17 17"
           class="m-2"
@@ -59,7 +50,7 @@
         </svg>
       </a>
 
-      <a href="https://github.com/ArkEcosystem" target="_blank">
+      <a href="https://github.com/legioncoresystems" target="_blank">
         <svg
           viewBox="0 0 24 24"
           class="m-2"
@@ -81,7 +72,7 @@
         </svg>
       </a>
 
-      <a href="https://ark.io/slack" target="_blank">
+      <a href="https://legioncore.org/slack" target="_blank">
         <svg
           viewBox="0 0 24 24"
           class="m-2"
@@ -92,7 +83,7 @@
         </svg>
       </a>
 
-      <a href="https://gitter.im/ark-developers/Lobby" target="_blank">
+      <a href="https://gitter.im/legioncore-developers/Lobby" target="_blank">
         <svg
           viewBox="0 0 24 24"
           class="m-2"
@@ -103,7 +94,7 @@
         </svg>
       </a>
 
-      <a href="https://steemit.com/@arkecosystem" target="_blank">
+      <a href="https://steemit.com/@legioncoresystems" target="_blank">
         <svg
           viewBox="0 0 24 24"
           class="m-2"
@@ -114,7 +105,7 @@
         </svg>
       </a>
 
-      <a href="https://blog.ark.io" target="_blank">
+      <a href="https://blog.legioncore.org" target="_blank">
         <svg
           viewBox="0 0 24 24"
           class="m-2"
@@ -141,7 +132,7 @@ export default {
       return GIT_VERSION
     },
     versionLink() {
-      return `https://github.com/ArkEcosystem/ark-explorer/commit/${GIT_VERSION}`
+      return `https://github.com/legioncore/ark-explorer/commit/${GIT_VERSION}`
     },
     date() {
       return GIT_DATE
